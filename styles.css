@@ -1,0 +1,77 @@
+:root{
+--soft red: hsl(0, 93%, 68%);
+
+--dark-red: hsl(0, 6%, 24%);
+--desaturated-red: hsl(0, 36%, 70%);
+
+/*
+- Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
+- Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%)*/
+
+}
+*{
+font-size :16px;
+box-sizing: border-box;
+ 
+
+}
+
+body{
+	font-family: "Josefin Sans", sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center; 
+}
+
+.outerContainer{
+	left:30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+
+  display: flex;
+  flex-direction: row;
+  width: 550px;
+  height: 400px;
+   margin-top: 15%;
+
+	  max-width : 700px;
+  max-height: 400px;
+  margin-top: 15%;
+  background-image: url("/images/hero-desktop.jpg");
+  background-color : hsl(0, 36%, 70%);
+}
+.text{
+	 flex: 1;
+}
+.image{
+     flex: 1;
+	width:50%;
+	height:100%;
+}
+.image img{
+     height:100%;
+     width:100%;
+     object-fit: fill; 
+
+}
+
+ul{
+	list-style :none;
+	text-align:left;
+	padding : 5%;
+}
+
+ul li:first-child {
+    padding-bottom: 10px;
+    margin-top:0px;
+}
